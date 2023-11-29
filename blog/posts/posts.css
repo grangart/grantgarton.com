@@ -1,0 +1,58 @@
+header {
+    font-size: 3rem;
+    color: #7c7c7c;
+    text-shadow: -1px -1px .1px #828282;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active > a:hover {
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*stolen from w3schools*/
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: fit-content;
+}
+
+.attrib {
+    display: block;
+    font-size: .9rem;
+    font-style: italic;
+    margin: .5rem;
+    text-indent: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: rgb(233, 233, 233);
+    margin: 0 auto;
+
+}
+
+main, article {
+    margin: 0 auto;
+    max-width: 65%;
+    text-align: justify;
+    text-indent: 4rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
