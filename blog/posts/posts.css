@@ -1,0 +1,59 @@
+header {
+    font-size: 3rem;
+    color: #F9F6EE;
+    text-shadow: -1px -1px .1px #FFF8DC;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active > a:hover {
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*stolen from w3schools*/
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: fit-content;
+}
+
+.attrib {
+    display: block;
+    font-size: .9rem;
+    font-style: italic;
+    margin: .5rem;
+    text-indent: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color:  #353839;
+    margin: 0 auto;
+
+}
+
+main, article {
+    margin: 0 auto;
+    max-width: 65%;
+    text-align: center;
+    /*text-indent: 4rem;*/
+}
+
+p {
+    color: #F9F6EE;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

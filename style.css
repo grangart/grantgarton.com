@@ -1,0 +1,56 @@
+.header {
+  font-size: 3rem;
+}
+
+input {
+  background: transparent;
+  border: 0px;
+  outline: none;
+  caret-color: transparent;
+  padding: 0;
+  text-align: center;
+  color: #F9F6EE;
+  text-shadow: -1px -1px .75px rgb(44, 44, 44);
+}
+
+a,
+a:link,
+a:visited,
+a:active > a:hover {
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Inter, sans-serif;
+  background-color:  #353839;
+  width: min-content;
+  margin: 0;
+}
+
+ul,
+li {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #F9F6EE;
+  display: inline-block;
+  padding: 0;
+}
+
+ul li::before {
+  content: "\200B";
+  /*
+  This is only for Safari, and keeps this list accessible 
+
+  see https://developer.mozilla.org/en-US/docs/Web/CSS/list-style for more info/source
+  */
+}

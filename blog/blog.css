@@ -1,0 +1,59 @@
+header {
+  font-size: 3rem;
+  color: #F9F6EE;
+  text-shadow: -1px -1px .1px #FFF8DC;
+  text-align: center;
+  margin: 0;
+}
+
+time {
+  font-size: .9rem;
+  font-style: italic;
+  text-align: center;
+}
+
+a,
+a:link,
+a:visited,
+a:active > a:hover {
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Inter, sans-serif;
+  background-color: #353839;
+}
+
+div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-block;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.35rem;
+  list-style: none;
+  color: #F9F6EE;
+}
+
+ul li::before {
+  content: "\200B";
+  /*
+  This is only for Safari, and keeps this list accessible 
+
+  see https://developer.mozilla.org/en-US/docs/Web/CSS/list-style for more info/source
+  */
+}
